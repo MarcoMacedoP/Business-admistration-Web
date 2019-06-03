@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:400,700');
-/*  Titulos en 700, subtitulos en 400: 
-		font-family: 'Oswald', sans-serif; 
-	Cuerpo en 400, palabras pequeñas en 300, palabras gruesas en 700 
-		font-family: 'Lato', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap');
+/*
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Lato', sans-serif;
 	*************************************************************************
-	Colores: 
+	Colores:
 		Principal: #F8CA00
 		Pincipal-ligero: #FFD519
 		Secundario: #3737AD
@@ -15,8 +14,8 @@
 
 
 */
+
 *{
-	font-family: 'Lato', sans-serif;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -25,23 +24,42 @@
 	outline: none;
 	font-size: 16px;
 }
+
 .front_page{
-	height: 100vh;
-	width: 100vw;
-	position: relative;
-	padding: 0 0 0 0;
-	background-color: #F8CA00;
+
 }
 .nav_bar{
+	margin: 10px;
+	/*Tiene un valor de dos*/
+}
+#nav{
+	font-family: 'Oswald', sans-serif;
+	margin: 10px 5px;
+	/*Tiene un valor de 10*/
+	background-color: rgb(23,58,96);
+    padding: 10px 145px 38px 52px;
+    border: 31px solid green;
+    width: 100px;
+    height: 100px;
+    /* box-sizing: border-box; */
+	color: white;
+
+}
+nav{
+	margin: 10px 7px 5px 7px;
+	/*Tiene un valor de uno*/
+}
+/*
+ .nav_bar{
 	width: 90%;
 	color: #3a3a3a;
 	padding: 0 0% 0 0;
 	display: flex;
-	justify-content:space-between; 
+	justify-content:space-between;
 	align-items: center;
 }
 .nav_bar-tittle{
-	font-weight: 700;	
+	font-weight: 700;
 	color: inherit ;
 	text-transform: uppercase;
 }
@@ -49,9 +67,9 @@
 .nav_bar-list{
 	width: 20%;
 	display: flex;
-	justify-content:space-between; 
+	justify-content:space-between;
 	align-items: center;
-	
+
 }
 .nav_bar-list-item{
 	margin: 0 1% 0 0;
@@ -67,7 +85,7 @@
 .cta_tittles-h1{
 	font-size: 4rem;
 	letter-spacing: 1rem;
-	font-weight: 700; 
+	font-weight: 700;
 	margin : 0 0 10% 0;
 }
 .cta_tittles-h2{
@@ -76,7 +94,7 @@
 	align-items: center;
 	font-size: 2rem;
 	letter-spacing: .5rem;
-	font-weight: 400; 
+	font-weight: 400;
 }
 .cta_buttons{
 	display: flex;
@@ -101,4 +119,128 @@
 }
 .btn_despliegue{
 	border: 1px solid orange;
+} /*
+
+
+
+/****************************PAGINA DE PERRITOS***********************/
+body,html{
+	height: 100%;
+	width: 100%;
+}
+.perritos{
+	background-color: #F8CA00;
+	height: 100%;
+}
+.titulo-perritos{
+	color:#3737AD;
+	font-size: 3rem;
+}
+.titulo-perritos-universo{
+	color:#191919;
+	font-size: 3rem;
+}
+.imagenes-perritos{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 50%;
+}
+.imagenes-perritos-img{
+	width: 30%;
+	height: auto;
+
+}
+/**************************************SECCION DOS************************/
+header{
+	display: flex;
+	border: 8px solid #3737AD;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background: #3737AD;
+	color: aliceblue;
+	font-family: 'Lato', sans-serif;
+
+}
+ul{
+	font-family: 'Lato', sans-serif;
+	display: flex;
+	justify-content: space-evenly;
+	width: 277px;
+	color: aliceblue;
+
+
+}
+body{
+	background:white;
+}
+.Objetivos{
+	padding: 0 6% 0% 6%;
+}
+.Objetivos-titulo{
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	margin: 2% 2%;
+	font-family: 'Oswald', sans-serif;
+	/*padding: 5% 36% 7% 45%; /*lo que separa los elementos de una caja del border (para adentro) */
+	/*margin:  10% 10% 80% 10%; /*Lo que separa a una caja de otras cajas (para afuera)*/
+	/*border: 31px solid green; /*frontera de una caja*/
+}
+.Objetivos-subtitulos{
+	font-size: 30px;
+	padding: 1% 1% 1% 0%;
+		font-family: 'Oswald', sans-serif;
+
+}
+.Objetivos-generales{
+	display: flex;
+	align-items: start;
+	font-family: 'Lato', sans-serif;
+	color: #eaeaea;
+	margin-bottom: 5%;
+	background-image: url("img/objetivo-general.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	/* position: relative;
+	top, bottom, rigth, left
+	top: 10px;
+	bottom: 20px;
+	left: 40px;
+	right: 40px; */
+	position: relative;
+}
+.Objetivos-generales-info{
+padding: 0% 29% 2% 4%;
+font-family: 'Lato', sans-serif;
+position: absolute;
+}
+.Objetivos-especificos{
+	display: flex;
+	align-items: start;
+	font-family: 'Oswald', sans-serif;
+}
+.Objetivos-especificos-img{
+	display: flex;
+	justify-content: start;
+
+}
+.Objetivos-especificos-info{
+/*padding: 0% 0% 0% 4%;*/
+font-family: 'Lato', sans-serif;
+}
+p{
+	font-size: 20px;
+}
+.footer{
+	margin-top: 5%;
+	font-family: 'Lato', sans-serif;
+	display: flex;
+	border: 8px solid #3737AD;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background: #3737AD;
+	color: aliceblue;
 }
