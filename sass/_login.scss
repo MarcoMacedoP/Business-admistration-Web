@@ -29,17 +29,7 @@
     margin: 8px 0;
     padding-bottom: 8px;
 }
-.__login-form-button{
-    background-color: $color_rosa;
-    border-radius: 16px;
-    color : $color_blanco_claro;
-    font-family: $font_cuerpo;
-    font-weight: bold;
-    border: none;
-    text-transform: uppercase;
-    padding: 8px 0;
-    margin: 3% 0;
-}
+
 .__login-form-button:hover{
     background-color: $color_rosa_oscuro;
 }
