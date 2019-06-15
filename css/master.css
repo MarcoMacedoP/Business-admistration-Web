@@ -781,4 +781,57 @@ header {
 .__footer-ino-n {
   margin: 0% 10% 0% 10%; }
 
+.__seleccion-perfil-perfiles {
+  display: flex;
+  width: 36%; }
+
+.__seleccion-pefil-perfiles-empleado-img {
+  width: 149px;
+  height: 147px; }
+
+.__seleccion-pefil-perfiles-gerente-img {
+  width: 149px;
+  height: 147px; }
+
+.__seleccion-pefil-perfiles-jefe-img {
+  width: 149px;
+  height: 147px; }
+
+.__seleccion-pefil-perfiles-empleado {
+  margin: 25% 6%;
+  font-family: Lato;
+  font-size: 12px; }
+
+.__seleccion-pefil-perfiles-gerente {
+  margin: 25% 6%;
+  font-family: Lato;
+  font-size: 12px; }
+
+.__seleccion-pefil-perfiles-jefe {
+  margin: 25% 6%;
+  font-family: Lato;
+  font-size: 12px; }
+
+.__seleccion-perfil-container {
+  display: flex;
+  flex-direction: column;
+  width: 36%;
+  padding: 5%;
+  position: absolute;
+  right: 50px;
+  z-index: 1;
+  bottom: 0px; }
+
+.__seleccion-perfil-container-titulo {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 34px;
+  display: flex;
+  justify-content: center; }
+
+.__seleccion-perfil-container-subtitulo {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 15px; }
+
 /*# sourceMappingURL=master.css.map */
