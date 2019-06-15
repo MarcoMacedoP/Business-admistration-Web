@@ -85,7 +85,7 @@ header {
   z-index: 2;
   width: 100%; }
 
-.__login-header-sign {
+.__header-sign {
   display: flex;
   align-self: center;
   margin: 0% 0% 0% 3%;
@@ -93,11 +93,11 @@ header {
   font-weight: 500;
   font-size: 15px; }
 
-.__login-header-ir {
+.__header-ir {
   display: flex;
   align-items: flex-end; }
 
-.__login-header-ino {
+.__header-ino {
   display: flex;
   justify-content: center;
   font-family: "Lato", sans-serif;
@@ -105,17 +105,17 @@ header {
   font-size: 13px;
   list-style: none; }
 
-.__login-header-ino-n {
+.__header-ino-n {
   margin: 0% 10%;
   /*align-self: center; /*acomodar solo una cajita de toda la caja*/ }
 
-.__login-header-ir {
+.__header-ir {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   text-transform: uppercase; }
 
-.__login-header-i {
+.__header-i {
   border-radius: 21px;
   border: 1px solid #FF82EE;
   max-height: 20px;
@@ -127,7 +127,7 @@ header {
   margin: 0% 25% 0% 5%;
   white-space: nowrap; }
 
-.__login-header-r {
+.__header-r {
   border-radius: 21px;
   border: 1px solid #FF82EE;
   background: #FF82EE;
@@ -152,18 +152,18 @@ footer {
   z-index: 2;
   width: 100%; }
 
-.__login-footer-sign {
+.__footer-sign {
   font-family: "Oswald", sans-serif;
   font-size: 15px;
   font-weight: 500; }
 
-.__login-footer-ino {
+.__footer-ino {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
   justify-content: space-evenly; }
 
-.__login-footer-ino_n {
+.__footer-ino_n {
   margin: 0% 10% 0% 10%; }
 
 .__bienvenida-container {
@@ -213,7 +213,7 @@ header {
   z-index: 2;
   width: 100%; }
 
-.__cuentanos-empresa-header-sign {
+.__header-sign {
   display: flex;
   align-self: center;
   margin: 0% 0% 0% 3%;
@@ -342,7 +342,7 @@ header {
   z-index: 2;
   width: 100%; }
 
-.__cuentanos-tu-header-sign {
+.__header-sign {
   display: flex;
   align-self: center;
   margin: 0% 0% 0% 3%;
@@ -350,7 +350,7 @@ header {
   font-weight: 500;
   font-size: 15px; }
 
-.__cuentanos-tu-header-ino {
+.__header-ino {
   display: flex;
   justify-content: center;
   font-family: "Lato", sans-serif;
@@ -358,16 +358,16 @@ header {
   font-size: 13px;
   list-style: none; }
 
-.__cuentanos-tu-header-ino-n {
+.__header-ino-n {
   margin: 0% 10%; }
 
-.__cuentanos-tu-header-ir {
+.__header-ir {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   text-transform: uppercase; }
 
-.__cuentanos-tu-header-ir-i {
+.__header-ir-i {
   border-radius: 21px;
   border: 1px solid #FF82EE;
   max-height: 20px;
@@ -379,7 +379,7 @@ header {
   margin: 0% 25% 0% 5%;
   white-space: nowrap; }
 
-.__cuentanos-tu-header-ir-r {
+.__header-ir-r {
   border-radius: 21px;
   border: 1px solid #FF82EE;
   background: #FF82EE;
@@ -440,18 +440,18 @@ header {
   display: flex;
   justify-content: center; }
 
-.__cuentanos-tu-footer-sign {
+.__footer-sign {
   font-family: "Oswald", sans-serif;
   font-size: 15px;
   font-weight: 500; }
 
-.__cuentanos-tu-footer-ino {
+.__footer-ino {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
   justify-content: space-evenly; }
 
-.__cuentanos-tu-footer-ino-n {
+.__footer-ino-n {
   margin: 0% 10% 0% 10%; }
 
 header {
@@ -527,7 +527,6 @@ header {
   justify-content: space-evenly;
   list-style: none;
   justify-content: space-evenly;
-  background: blue;
   font-family: "Lato", sans-serif; }
 
 .__footer-ino-n {
