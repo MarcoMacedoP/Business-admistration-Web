@@ -15,7 +15,7 @@ header{
     width: 100%;
 
 }
-.__seleccion-empresa-header-sign{
+.__header-sign{
 	display: flex;
 	align-self: center;
 	margin: 0% 0% 0% 3%;
@@ -23,7 +23,7 @@ header{
     font-weight: 500;
     font-size: 15px;
 }
-.__seleccion-empresa-header-ino{
+.__header-ino{
     display: flex;
     justify-content: center;
     font-family: "Lato", sans-serif;
@@ -31,16 +31,16 @@ header{
     font-size: 13px;
     list-style: none;
 }
-.__seleccion-empresa-header-ino-n{
+.__header-ino-n{
     margin: 0% 10%;
 }
-.__seleccion-empresa-header-ir{
+.__header-ir{
     display: flex;
     align-items: center; 
     justify-content: flex-end;
     text-transform: uppercase;
 }
-.__seleccion-empresa-header-ir-i{
+.__header-ir-i{
     border-radius: 21px;
     border:1px solid #FF82EE;
     max-height: 20px;
@@ -50,7 +50,7 @@ header{
     margin:  0% 25% 0% 5%;
     white-space: nowrap;
     }
-    .__seleccion-empresa-header-ir-r{
+    .__header-ir-r{
         border-radius: 21px;
         border:1px solid #FF82EE;
         background: #FF82EE;
@@ -59,13 +59,13 @@ header{
         width: 70px;
         padding: 2% 12% 2% 11%;
     }
-    .__seleccion-empresa-footer-sign{
+    .__footer-sign{
         font-family: "Oswald", sans-serif;
         font-size: 15px;
         font-weight: 500;
         
     }
-    .__seleccion-empresa-footer-ino{
+    .__footer-ino{
         display: flex;
         justify-content: space-evenly;
         list-style: none;
@@ -73,6 +73,6 @@ header{
         background: blue;
         font-family: "Lato", sans-serif;
     }
-    .__cuentanos-empresa-footer-ino-n{
+    .__footer-ino-n{
         margin: 0% 10% 0% 10%
     }
