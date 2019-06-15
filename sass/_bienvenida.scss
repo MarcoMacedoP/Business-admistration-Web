@@ -1,0 +1,29 @@
+.__bienvenida-container{
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    padding: 5%;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    bottom: 250px;
+}.__bienvenida-container-titulo{
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+}
+.__bienvenida-container-button{
+background-color: #FF82EE;
+    border-radius: 16px;
+    color: #F8F8F8;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase;
+    padding: 8px 0;
+    margin: 25% 0% 0% 0%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,81 @@
+@charset "UTF-8";
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /*apilar las cajas*/
+  background: #f8f8f8;
+  color: #010101;
+  box-shadow: 0px 1px 5px black;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 1% 0%;
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+  width: 100%; }
+
+.__seleccion-empresa-header-sign {
+  display: flex;
+  align-self: center;
+  margin: 0% 0% 0% 3%;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 15px; }
+
+.__seleccion-empresa-header-ino {
+  display: flex;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  list-style: none; }
+
+.__seleccion-empresa-header-ino-n {
+  margin: 0% 10%; }
+
+.__seleccion-empresa-header-ir {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-transform: uppercase; }
+
+.__seleccion-empresa-header-ir-i {
+  border-radius: 21px;
+  border: 1px solid #FF82EE;
+  max-height: 20px;
+  width: 70px;
+  padding: 2% 15% 2% 10%;
+  /*porque son dos palabras y para que no se muevamin-width: 95px;├ç*/
+  display: inline-block;
+  /*agarre todo su contenido*/
+  margin: 0% 25% 0% 5%;
+  white-space: nowrap; }
+
+.__seleccion-empresa-header-ir-r {
+  border-radius: 21px;
+  border: 1px solid #FF82EE;
+  background: #FF82EE;
+  color: ivory;
+  max-height: 20px;
+  width: 70px;
+  padding: 2% 12% 2% 11%; }
+
+.__seleccion-empresa-footer-sign {
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  font-weight: 500; }
+
+.__seleccion-empresa-footer-ino {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  justify-content: space-evenly;
+  background: blue;
+  font-family: "Lato", sans-serif; }
+
+.__cuentanos-empresa-footer-ino-n {
+  margin: 0% 10% 0% 10%; }
+
+/*# sourceMappingURL=seleccion-empresa.css.map */
