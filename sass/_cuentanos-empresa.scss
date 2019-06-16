@@ -12,7 +12,7 @@ header{
     position: fixed;
     top: 0px;
     z-index: 2;
-    width: 100%;
+    max-width: 100%;
 
 }
 .__header-sign{
@@ -25,6 +25,7 @@ header{
 }
 .__header-ino{
     display: flex;
+    align-self: center;
     justify-content: center;
     font-family: "Lato", sans-serif;
     font-weight: 300;
@@ -49,15 +50,21 @@ header{
     display: inline-block; /*agarre todo su contenido*/
     margin:  0% 25% 0% 5%;
     white-space: nowrap;
+    width: 156px;
+    height: 17px;
+   font-family: Lato;
     }
     .__header-ir-r{
         border-radius: 21px;
         border:1px solid #FF82EE;
         background: #FF82EE;
         color: ivory;
-        max-height: 20px;
+       /* max-height: 20px;*/
         width: 70px;
         padding: 2% 12% 2% 11%;
+        width: 156px;
+        height: 17px;
+        font-family: Lato;
     }
 .__cuentanos-empresa-container{
     display: flex;
