@@ -66,16 +66,16 @@ header{
         width: 36%;
         padding: 5%;
         position: absolute;
-        right: 50px;
+        right: 8px;
         z-index: 1;
-        bottom: 0px;
+        top: 75px;
     }
     .__seleccion-empresa-container-titulo{
         font-family: "Oswald", sans-serif;
         font-weight: 500;
         font-size: 34px;
         display: flex;
-        justify-content: center;
+        
     }
     .__seleccion-empresa-container-subtitulo{
         font-family: "Lato", sans-serif;
@@ -88,8 +88,21 @@ header{
         flex-direction: column;
     }
     .__seleccion-empresa-form-label{
-        font-family: "Lato", sans-serif;
-        color: #B9B9B9;
+        width: 95px;
+        height: 12px;
+        font-family: Lato;
+        font-size: 10px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #b9b9b9;
+        margin: 7% 0% 0% 0%;
+    
+        
+    
     }
     
     .__seleccion-empresa-form-input{
@@ -99,6 +112,10 @@ header{
         border-left: none;
         margin: 8px -81% 1% 1%;
         padding-bottom: 8px;
+        background-color: #f8f8f8;
+        font-family: 'Lato';
+        width: 330px;
+        
     }
     .__seleccion-empresa-form-button-uni{
     background-color: #FF82EE;

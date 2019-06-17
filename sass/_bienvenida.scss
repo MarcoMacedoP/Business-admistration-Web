@@ -1,12 +1,19 @@
+body
+{
+    background: #F8F8F8;
+}
 .__bienvenida-container{
     display: flex;
     flex-direction: column;
     width: 36%;
     padding: 5%;
     position: absolute;
-    right: 0;
+    bottom: 230px;
+    right: 15px;
     z-index: 1;
-    bottom: 250px;
+   
+   
+
 }.__bienvenida-container-titulo{
     font-family: "Oswald", sans-serif;
     font-weight: 500;
@@ -23,7 +30,7 @@ background-color: #FF82EE;
     border: none;
     text-transform: uppercase;
     padding: 8px 0;
-    margin: 25% 0% 0% 0%;
+    margin: 16% 0% 0% 0%;
     display: flex;
     justify-content: center;
 }

@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,qBAAqB;EACjB,SAAS,EAAE,GAAG;EACd,MAAM,EAAE,KAAK",
+"sources": ["../sass/cuentanos-empresa2.scss"],
 "names": [],
 "file": "cuentanos-empresa2.css"
 }

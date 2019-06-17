@@ -65,21 +65,22 @@ header{
     width: 36%;
     padding: 5%;
     position: absolute;
-    right: 50px;
+    right: 15px;
     z-index: 1;
-    bottom: 0px;
+    top: 80px;
 }
 .__cuentanos-tu-container-titulo{
     font-family: "Oswald", sans-serif;
     font-weight: 500;
     font-size: 34px;
     display: flex;
-    justify-content: center;
+    
 }
 .__cuentanos-tu-container-subtitulo{
     font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 15px;
+    margin: 0% 0 5% 0;
 }
 .__cuentanos-tu-formulario{
     width: 50%;
@@ -87,8 +88,17 @@ header{
     flex-direction: column;
 }
 .__cuentanos-tu-form-label{
-    font-family: "Lato", sans-serif;
-    color: #B9B9B9;
+    width: 48px;
+  height: 12px;
+  font-family: Lato;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #b9b9b9;
 }
 
 .__cuentanos-tu-form-input{
@@ -98,6 +108,7 @@ header{
     border-left: none;
     margin: 8px -81% 1% 1%;
     padding-bottom: 8px;
+    background-color: #f8f8f8;
 }
 .__cuentanos-tu-form-button{
 background-color: #FF82EE;

@@ -6,6 +6,8 @@
   background-color: #f8f8f8;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  
 }
 .__header-salir{
     align-self: center;
@@ -25,9 +27,36 @@
 width: 358px;
   height: 730px;
   background-color: #f8f8f8;
+  
+  .__nav-hp-cajas{
+display: flex;
+  position: absolute;
+  z-index: 0;
+  top: 80px;
+  flex-direction: column;
+  }
+  .__nav-horarios{
+    width: 358px;
+  height: 77px;
+  box-shadow: -1px 2px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #f8f8f8;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+.__nav-procesos{
+  width: 358px;
+height: 77px;
+box-shadow: -1px 2px 6px 0 rgba(0, 0, 0, 0.16);
+background-color: #f8f8f8;
+position: absolute;
+right: 0;
+z-index: 3;
+}
 }
 .__body-inicio-app{
   width: 1280px;
   height: 800px;
   background-color: #ebebeb;
+  
 }
